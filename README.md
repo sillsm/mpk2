@@ -76,6 +76,9 @@ load address x with 64 bytes yy (thanks bitwig scripts! :)
 
 ```
 
+### Extras
+[0x01, 0x00, nn] + [xx], where xx a message of length nn, which seems to overwrite the screen.
+
 ### Memory Addresses
 Packed (unpacked) address
 ```
