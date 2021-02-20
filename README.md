@@ -79,6 +79,8 @@ load address x with 64 bytes yy (thanks bitwig scripts! :)
 ### Extras
 [0x01, 0x00, nn] + [xx], where xx a message of length nn, which seems to overwrite the screen.
 
+[i]+[0x00, 0x00], where i ranges from 0 255. This corrupted the firmware!
+
 ### Memory Addresses
 Packed (unpacked) address
 ```
