@@ -81,6 +81,10 @@ load address x with 64 bytes yy (thanks bitwig scripts! :)
 
 [i]+[0x00, 0x00], where i ranges from 0 255. This corrupted the firmware!
 
+See https://www.akaipro.de/sites/default/files/2018-01/APC40_Communications_Protocol_rev_1.pdf_1db97c1fdba23bacf47df0f9bf64e913.pdf.
+MPK249 demonstrates accepts "MMC Device Enquiry message"
+[0xF0, 0x7E, 0x00, 0x06, 0x01, 0xF7]
+
 ### Memory Addresses
 Packed (unpacked) address
 ```
