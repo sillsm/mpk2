@@ -85,6 +85,9 @@ See https://www.akaipro.de/sites/default/files/2018-01/APC40_Communications_Prot
 MPK249 demonstrates accepts "MMC Device Enquiry message"
 [0xF0, 0x7E, 0x00, 0x06, 0x01, 0xF7]
 
+Flip through pages on LCD
+[0x30, 0, 4, 1, 0, 30] [xx] 1-30 mode
+
 ### Memory Addresses
 Packed (unpacked) address
 ```
