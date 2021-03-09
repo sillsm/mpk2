@@ -104,3 +104,9 @@ Pad on colors:
 
 ### Program dump format:
 See readProgramDump.py comments for class `MPK2Sysex`, in particular, `read*Spec()` functions.
+
+### More
+
+Connecting to the AD2A/4A/6A/8A via a st-link v2 through the jtag pins.
+[link](https://stm32-base.org/guides/connecting-your-debugger.html)
+
