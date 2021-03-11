@@ -43,6 +43,7 @@ returns 38 00 04 nn xx xx zz, zz = 0x00 on success, 0x01 on failure it seems
 31 00 [n+3] nn xx xx {yy[0]..yy[n-1]} : load program address x with n byte array yy
 return 39 00 04 nn xx xx 00 on success (01 on fail?)
 
+31 : response from controller after command 21 [learned]
 38 : response from controller after command 30
 39 : response from controller after command 31
 
