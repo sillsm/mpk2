@@ -113,3 +113,4 @@ Connecting to the AD2A/4A/6A/8A via a st-link v2 through the jtag pins.
 
 https://medium.com/techmaker/stack-buffer-overflow-in-stm32-b73fa3f0bf23
 
+https://payatu.com/blog/asmita-jha/--stack-smashing--protection-in-hardware-attack
